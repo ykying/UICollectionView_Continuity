@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UICollectionView *theCollectionView;
 
+- (IBAction)btnSwitchPressed:(id)sender;
 @end
 
