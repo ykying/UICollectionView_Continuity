@@ -1,9 +1,11 @@
-## Continuity using UICollectionView 
+# Continuity using UICollectionView 
 Grid to list, list to grid.
+
+![demo](Screenshots/demo.gif)
 
 ## How To Use
 Remember to set AutoLayout correctly.
-```
+```objc
 	//CollectionView to animate Cell
     [_theCollectionView performBatchUpdates:^{
         for (CollectionViewCell *cell in [_theCollectionView visibleCells]) {

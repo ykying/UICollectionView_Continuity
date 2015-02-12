@@ -26,7 +26,7 @@
 
 
 - (void)updateLayout{
-    
+
     CGFloat bgAlpha = 0.0;
     UIWindow *window = [UIApplication sharedApplication].delegate.window;
     NSLog(@"w:%f; win/2:%@",self.frame.size.width, NSStringFromCGRect(window.frame));
